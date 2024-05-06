@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "the_fabric",
+  "version": "${version}",
+
+  "name": "The Fabric",
+  "description": "This is The Fabric Mod. Created by Fabric!",
+  "authors": [
+    "StickyMouse27"
+  ],
+  "contact": {
+    "homepage": "https://github.com/StickyMouse27",
+    "sources": "https://github.com/StickyMouse27/the-fabric-1.19"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/the_fabric/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.TheFabricMod"
+    ]
+  },
+  "mixins": [
+    "the_fabric.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
